@@ -1,7 +1,4 @@
-FROM node:7
-
-# https://github.com/yarnpkg/yarn/issues/2266
-RUN yarn global add node-gyp
+FROM node:10.7
 
 WORKDIR /srv/image-resizer-instance
 
