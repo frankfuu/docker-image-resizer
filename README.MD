@@ -1,7 +1,7 @@
 Building
 ```
 docker build -t flankieflew:a2v2 .
-``
+```
 
 Running
 ```
